@@ -1,4 +1,4 @@
-import { User, MockUser, LoginCredentials, AuthResponse, MOCK_USERS } from '../types/auth';
+import { User, LoginCredentials, AuthResponse, MOCK_USERS } from '../types/auth';
 
 export class AuthService {
   private sessions: Map<string, User> = new Map();
